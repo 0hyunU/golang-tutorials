@@ -9,6 +9,6 @@ func main() {
 	*/
 	a := [6]int{10, 20, 30, 40, 50, 60}
 	s := a[1:4]
-
+	s = append(s, 5,4,6) // capacity expand *2
 	fmt.Printf("s = %v, len = %d, cap = %d\n", s, len(s), cap(s))
 }

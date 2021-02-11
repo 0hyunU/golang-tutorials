@@ -18,5 +18,7 @@ func main() {
 
 	// Letting Go compiler infer the length of the array
 	d := [...]int{3, 5, 7, 9, 11, 13, 17}
+	//d[len(d)] = 5
 	fmt.Println(d)
+	fmt.Println(len(d))
 }

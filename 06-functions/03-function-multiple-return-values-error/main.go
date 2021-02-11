@@ -17,7 +17,7 @@ func getStockPriceChangeWithError(prevPrice, currentPrice float64) (float64, flo
 }
 
 func main() {
-	prevStockPrice := 0.0
+	prevStockPrice := 1.0
 	currentStockPrice := 100000.0
 
 	change, percentChange, err := getStockPriceChangeWithError(prevStockPrice, currentStockPrice)

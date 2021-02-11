@@ -15,6 +15,7 @@ func main() {
 		low and high parameters are optional in a[low:high]
 		The default value for low is 0, and high is the length of the slice.
 	*/
+	
 	slice1 := a[1:4]
 	slice2 := a[:3]
 	slice3 := a[2:]
